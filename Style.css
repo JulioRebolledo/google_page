@@ -1,0 +1,123 @@
+body{
+    font-size: 20px;
+    font-family: 'cormorant', serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.top-bar{
+    height: 3rem;
+    background: #b41818
+}
+
+.top-bar nav{
+    float: right;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+.top-bar a{
+    color: black;    
+    margin-left: 5px;
+}
+
+.search{
+    /* 
+    background: #fcfafa; */
+    text-align: center;
+    margin: 10%;
+    
+
+}
+
+.search input{
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid #ceccccd8;
+    font-size: 30px
+}
+
+.search input:hover{
+    box-shadow: 1px 1px 5px rgba(128, 125, 125, 0.9)
+}
+
+.search input:focus{
+    outline: none;
+    border: 1px solid #4285f4;
+    
+}
+
+.logo_google{
+    width: 35rem;
+    height: 30%;
+    margin: auto;
+    padding-top: 4rem;   
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo_google img{
+    width: 50%;
+}
+
+.btn-search button{
+    background-color: #f0eeee;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    height: 1.5rem;
+}
+
+#btn-iniciar{
+    background-color: #1e40af;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    color: #f0eeee;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.tipoDeLetra{ 
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.btn-search button:hover{
+    box-shadow: 1px 1px 3px rgba(19, 18, 18, 0.5) 
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+    background: #f3f3f3
+}
+.Country{
+    margin-left: 1.5rem;
+    height: 1rem;
+
+}
+
+.Footer-left{
+    float: left;
+    margin-left: 1.5rem;
+}
+
+.Footer-right{
+    float: right;
+    margin-right: 1.5rem;
+}
+.letraFooter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+nav{
+    background: #f3f3f3
+}
